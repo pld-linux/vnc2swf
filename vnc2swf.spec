@@ -1,12 +1,12 @@
 Summary:	Screen recorder
 Summary(pl):	Nagrywacz obrazu z ekranu
 Name:		vnc2swf
-Version:	0.4.1
+Version:	0.4.2
 Release:	1
-License:	GPL
+License:	GPL v2
 Group:		X11/Applications
 Source0:	http://www.unixuser.org/~euske/vnc2swf/%{name}-%{version}.tar.gz
-# Source0-md5:	d2afa4cc66cf2ecbb8c77579004f005f
+# Source0-md5:	57a61191010a15cbbf8d0e3a3ec4ca11
 URL:		http://www.unixuser.org/~euske/vnc2swf/
 Requires:	ming = 0.2a
 BuildRequires:	autoconf
