@@ -36,7 +36,7 @@ Vnc2Swf は VNC を録画して Flash に変換するプログラムです。
 %configure
 %{__make}
 
-cat recordwin.sh | sed s@./vnc2swf@vnc2swd@ > recordwin
+cat recordwin.sh | sed s@./vnc2swf@vnc2swf@ > recordwin
 
 %install
 rm -rf $RPM_BUILD_ROOT
