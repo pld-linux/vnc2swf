@@ -13,6 +13,7 @@ BuildRequires:	autoconf
 BuildRequires:	ming-devel = 0.2a
 BuildRequires:	XFree86-devel
 BuildRequires:	zlib-devel
+Requires:	X11-tools
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
