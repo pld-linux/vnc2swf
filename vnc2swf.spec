@@ -8,12 +8,12 @@ Group:		X11/Applications
 Source0:	http://www.unixuser.org/~euske/vnc2swf/%{name}-%{version}.tar.gz
 # Source0-md5:	57a61191010a15cbbf8d0e3a3ec4ca11
 URL:		http://www.unixuser.org/~euske/vnc2swf/
-Requires:	ming = 0.2a
 BuildRequires:	autoconf
 BuildRequires:	ming-devel = 0.2a
 BuildRequires:	XFree86-devel
 BuildRequires:	zlib-devel
-Requires:	X11-tools
+Requires:	XFree86-tools
+Requires:	ming = 0.2a
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
