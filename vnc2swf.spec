@@ -3,7 +3,7 @@ Summary:	Screen Recorder which saves a VNC session as a .swf file
 Summary(pl):	Nagrywacz obrazu z ekranu
 Name:		vnc2swf
 Version:	0.4.2
-Release:	1.2
+Release:	1.3
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://www.unixuser.org/~euske/vnc2swf/%{name}-%{version}.tar.gz
@@ -79,6 +79,7 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/recordwin
 
 %files -n edit_vnc2swf
+%defattr(644,root,root,755)
 %doc edit_vnc2swf/README.html
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/edit_*
