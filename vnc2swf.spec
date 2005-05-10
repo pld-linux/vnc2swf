@@ -38,7 +38,6 @@ Group:		Applications
 Requires:	python >= 1:2.3
 Requires:	python-pygame >= 1.6
 Version:	%{edit_version}
-BuildArch:	noarch
 URL:		http://www.unixuser.org/~euske/vnc2swf/edit_vnc2swf.html
 
 %description -n edit_vnc2swf
