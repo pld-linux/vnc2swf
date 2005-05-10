@@ -81,5 +81,4 @@ rm -rf $RPM_BUILD_ROOT
 %files -n edit_vnc2swf
 %defattr(644,root,root,755)
 %doc edit_vnc2swf/README.html
-%defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/edit_*
