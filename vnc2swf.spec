@@ -34,6 +34,7 @@ Vnc2Swf ¤Ï VNC ¤òÏ¿²è¤·¤Æ Flash ¤ËÊÑ´¹¤¹¤ë¥×¥í¥°¥é¥à¤Ç¤¹¡£
 
 %package -n edit_vnc2swf
 Summary:	Editing Tool for Vnc2swf
+Summary(pl):	Narzêdzie do edycji dla Vnc2swf
 Group:		Applications
 Requires:	python >= 1:2.3
 Requires:	python-pygame >= 1.6
@@ -49,6 +50,16 @@ it supports ScreenVideo format which was newly introduced in Flash
 version 7. Generally with this new format a movie can lose the weight
 without losing the quality, and it requires much less memory to play
 on your browser.
+
+%description -n edit_vnc2swf -l pl
+Edit_vnc2swf to narzêdzie do edycji dla vnc2swf. Ten program umo¿liwia
+ciêcie, ³±czenie, wycinanie i do³±czanie d¼wiêku MP3 do filmów .swf
+(ShockWave Flash) wygenerowanych przez vnc2swf. Ten program wykonuje
+tak¿e pewn± optymalizacjê w celu zmniejszenia nieco rozmiaru filmu. Od
+wersji 0.2 obs³uguje format ScreenVideo niedawno wprowadzony w wersji
+7 Flasha. Zasadniczo przy u¿yciu tego nowego formatu film mo¿e
+zmniejszyæ rozmiar bez utraty jako¶ci i wymaga du¿o mniej pamiêci do
+odtwarzania w przegl±darce.
 
 %prep
 %setup -q -a1
