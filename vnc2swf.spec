@@ -1,6 +1,6 @@
 %define		edit_version 0.3
 Summary:	Screen Recorder which saves a VNC session as a .swf file
-Summary(pl.UTF-8):   Nagrywacz obrazu z ekranu
+Summary(pl.UTF-8):	Nagrywacz obrazu z ekranu
 Name:		vnc2swf
 Version:	0.4.2
 Release:	1.3
@@ -34,7 +34,7 @@ Vnc2Swf は VNC を録画して Flash に変換するプログラムです。
 
 %package -n edit_vnc2swf
 Summary:	Editing Tool for Vnc2swf
-Summary(pl.UTF-8):   Narzędzie do edycji dla Vnc2swf
+Summary(pl.UTF-8):	Narzędzie do edycji dla Vnc2swf
 Group:		Applications
 Requires:	python >= 1:2.3
 Requires:	python-pygame >= 1.6
