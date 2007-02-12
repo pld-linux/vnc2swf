@@ -1,6 +1,6 @@
 %define		edit_version 0.3
 Summary:	Screen Recorder which saves a VNC session as a .swf file
-Summary(pl):	Nagrywacz obrazu z ekranu
+Summary(pl.UTF-8):   Nagrywacz obrazu z ekranu
 Name:		vnc2swf
 Version:	0.4.2
 Release:	1.3
@@ -24,17 +24,17 @@ Vnc2swf is a screen recording tool. Vnc2swf captures the live motion
 of a screen with VNC protocol and generates a Macromedia Flash(TM)
 movie (.swf).
 
-%description -l pl
-Vnc2swf jest narzêdziem rejestruj±cym obraz z ekranu. Dostêp do
-ruchomej zawarto¶ci ekranu odbywa siê za po¶rednictwem protoko³u VNC.
+%description -l pl.UTF-8
+Vnc2swf jest narzÄ™dziem rejestrujÄ…cym obraz z ekranu. DostÄ™p do
+ruchomej zawartoÅ›ci ekranu odbywa siÄ™ za poÅ›rednictwem protokoÅ‚u VNC.
 Wynikowy plik jest zapisany w formacie filmu Macromedia Flash (.swf).
 
-%description -l ja
-Vnc2Swf ¤Ï VNC ¤òÏ¿²è¤·¤Æ Flash ¤ËÊÑ´¹¤¹¤ë¥×¥í¥°¥é¥à¤Ç¤¹¡£
+%description -l ja.UTF-8
+Vnc2Swf ã¯ VNC ã‚’éŒ²ç”»ã—ã¦ Flash ã«å¤‰æ›ã™ã‚‹ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã§ã™ã€‚
 
 %package -n edit_vnc2swf
 Summary:	Editing Tool for Vnc2swf
-Summary(pl):	Narzêdzie do edycji dla Vnc2swf
+Summary(pl.UTF-8):   NarzÄ™dzie do edycji dla Vnc2swf
 Group:		Applications
 Requires:	python >= 1:2.3
 Requires:	python-pygame >= 1.6
@@ -51,15 +51,15 @@ version 7. Generally with this new format a movie can lose the weight
 without losing the quality, and it requires much less memory to play
 on your browser.
 
-%description -n edit_vnc2swf -l pl
-Edit_vnc2swf to narzêdzie do edycji dla vnc2swf. Ten program umo¿liwia
-ciêcie, ³±czenie, wycinanie i do³±czanie d¼wiêku MP3 do filmów .swf
+%description -n edit_vnc2swf -l pl.UTF-8
+Edit_vnc2swf to narzÄ™dzie do edycji dla vnc2swf. Ten program umoÅ¼liwia
+ciÄ™cie, Å‚Ä…czenie, wycinanie i doÅ‚Ä…czanie dÅºwiÄ™ku MP3 do filmÃ³w .swf
 (ShockWave Flash) wygenerowanych przez vnc2swf. Ten program wykonuje
-tak¿e pewn± optymalizacjê w celu zmniejszenia nieco rozmiaru filmu. Od
-wersji 0.2 obs³uguje format ScreenVideo niedawno wprowadzony w wersji
-7 Flasha. Zasadniczo przy u¿yciu tego nowego formatu film mo¿e
-zmniejszyæ rozmiar bez utraty jako¶ci i wymaga du¿o mniej pamiêci do
-odtwarzania w przegl±darce.
+takÅ¼e pewnÄ… optymalizacjÄ™ w celu zmniejszenia nieco rozmiaru filmu. Od
+wersji 0.2 obsÅ‚uguje format ScreenVideo niedawno wprowadzony w wersji
+7 Flasha. Zasadniczo przy uÅ¼yciu tego nowego formatu film moÅ¼e
+zmniejszyÄ‡ rozmiar bez utraty jakoÅ›ci i wymaga duÅ¼o mniej pamiÄ™ci do
+odtwarzania w przeglÄ…darce.
 
 %prep
 %setup -q -a1
